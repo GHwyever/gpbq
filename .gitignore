@@ -1,21 +1,30 @@
-# 旧项目文件
+# ===== 排除所有非素材库文件夹 =====
+ai-short-drama-workflow/
+downloads/
+fanqienovel-downloader/
+fanqienovel_downloader/
 gaopanbuqi/
 gaopanbuqi-assets/
-fanqienovel-downloader/
+novel-review/
+novel-structure-review/
+novel_downloader/
+novel_to_short_drama/
+pan-long-adaptation-report/
+pan-long-gallery/
+pan-long-storyboard/
 
-# 生成的视频（太大）
+# ===== 排除根目录非素材库文件 =====
+auto_generate_videos.py
+decode_table.js
+mizhi_lora_pack.zip
+
+# ===== 素材库内不需要CDN托管的 =====
 高攀不起-素材库/06-竖屏视频/
-
-# 横屏首尾帧（目前用不上）
 高攀不起-素材库/05-横屏首尾帧/
-
-# 竖屏首尾帧（生成产物，源头在分镜中）
 高攀不起-素材库/04-竖屏首尾帧/
-
-# 场景参考中的横屏（只保留竖屏）
 高攀不起-素材库/03-场景参考/横屏/
 
-# 系统文件
+# ===== 系统文件 =====
 .DS_Store
 *.pyc
 __pycache__/
